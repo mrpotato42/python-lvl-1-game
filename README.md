@@ -7,7 +7,24 @@ Un juego de defensa de torres en 2D desarrollado en Python con Pygame. Controla 
 ## 📋 Requisitos
 
 - **Python** 3.11+
-- **pygame-ce** 2.5+
+- **pygame-ce**
+
+# Crear y activar entorno virtual:
+
+### Windows
+```bash
+python -m venv venv
+
+.\venv\Scripts\Activate
+```
+> Windows puede requerir permisos adicionales para crear o ejecutar un entorno virtual, asegurese de dar permisos a la sesión o al usuario.
+
+### Linux/macOS
+```bash
+python3 -m venv venv
+
+venv\Scripts\activate
+```
 
 Instala las dependencias con:
 
@@ -41,7 +58,6 @@ python run.py
 | Reclutar Caballero (150g) | `3` |
 | Reclutar Catapulta (250g) | `4` |
 | Pausar / Reanudar | `ESC` |
-| Alternar lado de la torre (menú) | `T` |
 
 ---
 
