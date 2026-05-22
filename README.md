@@ -23,7 +23,7 @@ python -m venv venv
 ```bash
 python3 -m venv venv
 
-venv\Scripts\activate
+source venv\Scripts\activate
 ```
 
 Instala las dependencias con:
